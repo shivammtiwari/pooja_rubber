@@ -1,0 +1,57 @@
+.contact {
+    width: 94%;
+    max-width: 1150px;
+    margin: auto;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 100vh;
+    position: relative;
+    background: rgba(0,0,0,.5); */
+}
+.ContactDetails{
+    max-width: 400px;
+}
+.ContactDetails .address{
+    display: flex;
+    /* align-items: center; */
+    margin-bottom: 20px;
+}
+
+
+.address .icon i{
+    font-size: 22px;
+    background: aqua;
+    border-radius: 50px;
+    padding: 12px 14px;
+    margin-right: 14px;
+}
+
+.phone .icon i, .email .icon i{
+    font-size: 22px;
+    background: aqua;
+    border-radius: 50px;
+    padding: 12px !important;
+    margin-right: 14px;
+}
+
+.address .ContactText .ContactTitle{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.address .ContactText p{
+    font-size: 14px;
+
+}
+@media screen and (max-width:800px) {
+   .contact {
+    flex-direction: column-reverse;
+   } 
+}
+
+
+
+
+

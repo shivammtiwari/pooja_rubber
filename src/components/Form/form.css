@@ -1,0 +1,67 @@
+.FormWrapper{
+  margin-top: 3rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  /* box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.028), 0 0px 5.3px rgba(0, 0, 0, 0.04),
+    0 0px 10px rgba(0, 0, 0, 0.05), 0 0px 17.9px rgba(0, 0, 0, 0.06),
+    0 0px 33.4px rgba(0, 0, 0, 0.072), 0 0px 80px rgba(0, 0, 0, 0.1); */
+    max-width: 400px;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+}
+
+
+span {
+    font-weight: 700;
+    color: #102a43;
+    line-height: 35px;
+    line-height: 2.5rem;
+    font-size: 12px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+input[type="submit"] {
+    background: #fc4366 !important;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 1.3em;
+}
+
+
+
+.required-star {
+    color: #fc4366;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px 20px;
+    border: 1px solid #e1e2eb;
+    background-color: #fff !important;
+    color: #102a43;
+    caret-color: #829ab1;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 3px;
+    
+    resize: none;
+}
